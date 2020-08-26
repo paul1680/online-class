@@ -1,0 +1,12 @@
+.item{
+    background-color: yellowgreen;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
+}
+.mainButton{
+    padding: 2px;
+    color:black;
+    background-color:rgb(187, 231, 183);
+}
