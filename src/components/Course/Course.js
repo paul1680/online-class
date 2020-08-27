@@ -9,9 +9,9 @@ const Course = () => {
     const [course, setCourse] = useState(course12);
     const [cart, setCart] = useState([]);
 
-    const handleAddProduct = (pro)=>{
-        console.log('product added.',pro);
-        const newCart = [...cart, pro];
+    const handleAddProduct = (ppppp)=>{
+        console.log('product added.',ppppp);
+        const newCart = [...cart, ppppp];
         setCart(newCart);
     }
 
@@ -24,8 +24,11 @@ const Course = () => {
                 product={c}></List>)
              }
                 </div>
+                
             <div class="col-4 new">
+            <div class="position-fixed">
             <Cart cart={cart}></Cart>
+                </div>
                 </div>
         </div>
             
